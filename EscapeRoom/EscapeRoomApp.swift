@@ -11,7 +11,9 @@ import SwiftUI
 struct EscapeRoomApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                LaunchScreen()
+            }
         }
     }
 }
