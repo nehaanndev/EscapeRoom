@@ -57,7 +57,7 @@ struct LaunchScreen: View {
             message = "The box is unlocked! You can proceed."
             isDoorUnlocked = true
         } else {
-            message = "Incorrect code. Try again!"
+            message = "Incorrect code. Try again!!"
         }
     }
 }
